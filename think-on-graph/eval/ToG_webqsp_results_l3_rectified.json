@@ -1,7 +1,0 @@
-{
-    "dataset": "webqsp",
-    "method": "Llama3_rectified",
-    "Exact Match": 0.6418547895057962,
-    "Right Samples": 1052,
-    "Error Sampels": 587
-}
