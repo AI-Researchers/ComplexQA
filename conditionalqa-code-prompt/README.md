@@ -28,11 +28,7 @@ pip install -r requirements.txt
 ```
 
 ## Running the experiments 
-To reproduce results for Llama3 model, you just need to run below command on the terminal first:
-```
-python -m vllm.entrypoints.openai.api_server --model TechxGenus/Meta-Llama-3-70B-Instruct-GPTQ --dtype float16 --api-key token-abc123
-```
-Then run these notebooks:
+Run these notebooks:
 * `conditionalqa_code_prompt.ipynb`
 * `conditionalqa_text_prompt.ipynb`
 
