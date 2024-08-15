@@ -37,32 +37,3 @@ Then run these notebooks:
 * `conditionalqa_text_prompt.ipynb`
 
 To reproduce results for OpenAI model, simply add the OpenAI API keys to the notebooks and run the notebook. 
-
-## Code Prompt Experiment results on Dev Set:
-
-| **Model**                	| **no. of ICL examples** 	| **F1 score** 	|
-|--------------------------	|-------------------------	|--------------	|
-|          GPT 3.5         	|       _4 (paper)_       	|   **_57.64_** |
-|          Mistral         	|       _4 (paper)_       	|    _28.26_   	|
-|          Mistral         	|            4            	|     2.97     	|
-|          Mistral         	|   4 (updated prompts)   	|     2.89     	|
-|          Mistral         	|            1            	|     4.37     	|
-|          Mixtral         	|       _4 (paper)_        	|    _40.88_   	|
-|          Mixtral         	|            1            	|     15.79    	|
-|   Llama-3-8B- Instrcut   	|            4            	|     35.86    	|
-| Llama3-70B-Instruct-GPTQ 	|            4            	|     45.61    	|
-
-## Text Prompt Experiment results on Dev Set:
-
-| **Model**                	| **no. of ICL examples** 	| **F1 score** 	|
-|--------------------------	|-------------------------	|--------------	|
-|          GPT 3.5         	|       _6 (paper)_       	|    _56.54_   	|
-|          Mistral         	|       _6 (paper)_       	|    _28.84_   	|
-|          Mistral         	|            1            	|     7.52     	|
-|          Mistral         	|            6	            |     12.15     |
-|          Mistral         	|   6 (updated prompts)     |     8.71     	|
-|          Mixtral         	|       _6 (paper)_        	|    _46.60_   	|
-|          Mixtral         	|            1            	|     19.44    	|
-|          Mixtral         	|   1 (updated prompts)     |     16.99    	|
-|   Llama-3-8B- Instrcut   	|            6            	|     45.92    	|
-| Llama3-70B-Instruct-GPTQ 	|            6            	|     **62.00** |
