@@ -1,0 +1,7 @@
+{
+    "dataset": "webqsp",
+    "method": "Llama3",
+    "Exact Match": 0.18852959121415497,
+    "Right Samples": 309,
+    "Error Sampels": 1330
+}
