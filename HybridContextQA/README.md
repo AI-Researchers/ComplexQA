@@ -91,7 +91,7 @@ export OPENAI_API_KEY="your_openai_api_key"
 You can run the pipeline with various options using the command-line interface. Here's how to get started:
 
 ```bash
-python main.py --llm_framework openai --llm_model gpt-4o-mini --index hybrid_index --doc_path /path/to/docs --ref_file /path/to/dev.json --num_shots 2
+python RAG_pipeline_eval.py --llm_framework openai --llm_model gpt-4o-mini --index hybrid_index --doc_path /path/to/docs --ref_file /path/to/dev.json --num_shots 2
 ```
 
 #### Command-Line Arguments:
